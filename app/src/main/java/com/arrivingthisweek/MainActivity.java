@@ -26,6 +26,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageSelected(int arg0) {
+                actionBar.setSelectedNavigationItem(arg0);
             }
 
             @Override
@@ -58,6 +59,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft) {
+        viewPager.setCurrentItem(tab.getPosition());
+
 
     }
 
