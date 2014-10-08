@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
@@ -15,6 +14,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     ViewPager viewPager=null;
     ActionBar actionBar;
+
 
     @Override
     protected void onCreate(Bundle arg0) {
@@ -85,7 +85,7 @@ class MyAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int i) {
         Fragment fragment=null;
         if(i==0) {
-            fragment=new PublishersFragment();
+            fragment = new PublishersFragment();
         }
         if(i==1) {
             fragment=new FavoritesFragment();

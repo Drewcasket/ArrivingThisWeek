@@ -7,4 +7,15 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="publishers">Publishers</string>
 
+    <string-array name="titles">
+        <item>boom_studios</item>
+        <item>dark_horse</item>
+        <item>dc_comis</item>
+        <item>idw</item>
+        <item>image</item>
+        <item>marvel</item>
+    </string-array>
+
+    <string name="title_activity_comic_release_list">ComicReleaseListActivity</string>
+
 </resources>
