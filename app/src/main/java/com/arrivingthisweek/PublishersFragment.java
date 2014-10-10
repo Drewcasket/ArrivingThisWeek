@@ -23,7 +23,7 @@ public class PublishersFragment extends Fragment implements AdapterView.OnItemCl
 
     ListView list;
     String [] publisherTitles;
-    int[] images = {R.drawable.logo_boom, R.drawable.logo_dark_horse, R.drawable.logo_dc, R.drawable.logo_idw, R.drawable.logo_image, R.drawable.logo_marvel};
+    int[] images = {R.drawable.boom_logo_pic, R.drawable.dark_horse_logo_pic, R.drawable.dc_logo_pic, R.drawable.idw_logo_pic, R.drawable.image_logo_pic, R.drawable.marvel_logo_pic};
 
 
     @Override
